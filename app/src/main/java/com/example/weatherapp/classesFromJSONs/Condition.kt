@@ -1,7 +1,6 @@
-package com.example.weatherapp
+package com.example.weatherapp.classesFromJSONs
 
 data class Condition(
-    val code: Int,
     val icon: String,
     val text: String
 )
